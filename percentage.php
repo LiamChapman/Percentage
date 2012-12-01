@@ -47,10 +47,10 @@ class Percentage {
 	}
 
 	/**
-	 *	Percentage Increase of value. i.e.
-	 *  You have been given a raise, so your salary is £28,000. But orignally you were on £25,000. 
-	 *  What percentage increase was that raise?
-	 *  ->increaseOf(28000', 25000); returns 12; So it's a 12% increase.
+	 * Percentage Increase of value. i.e.
+	 * You have been given a raise, so your salary is £28,000. But orignally you were on £25,000. 
+	 * What percentage increase was that raise?
+	 * ->increaseOf(28000, 25000); returns 12; So it's a 12% increase.
 	**/
 	public function increaseOf ($after_amount, $before_amount) {
 		$after_amount = ($after_amount / $before_amount);
@@ -62,7 +62,7 @@ class Percentage {
 	 * Percentage Decrease of value i.e.
 	 * You own property worth £3,000,000. But now its worth £2,700,000.
 	 * What percentage decrease was that reduction?
-	 * ->decreaseOf('2700000', '3000000'); returns 10; So its a 10% decrease.
+	 * ->decreaseOf(2700000, 3000000); returns 10; So its a 10% decrease.
 	**/
 	public function decreaseOf ($after_amount, $before_amount) {
 		$after_amount = ($after_amount / $before_amount);
