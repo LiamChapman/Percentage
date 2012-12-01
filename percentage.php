@@ -19,7 +19,7 @@ class Percentage {
 
 	/**
 	 * Percentage of something i.e.
-	 * £450 of $1500, what is the percentage of?
+	 * £450 of £1500, what is the percentage of?
 	 * ->of(440, 1500); returns 30. So its 30%
 	**/
 	public function of ($partial_amount, $total_amount) {
